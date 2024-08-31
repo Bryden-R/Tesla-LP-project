@@ -1,0 +1,139 @@
+/* Importing google fonts-roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-wrapper{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Model-S-homepage-desktop");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    height: 60px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.logo-container{
+    width: 120px;
+    height: 60px;
+    display: flex;
+}
+
+.middle-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    height: 60px;
+}
+
+.middle-section  ul  li{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section  ul  li a:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    color: #000;
+}
+
+.middle-section  ul  li  a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+
+.icons-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons-section:hover{
+    cursor: pointer;
+}
+
+.main-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0 0 0;
+}
+
+.main-content h1{
+    font-size: 55px;
+}
+
+.main-content a{
+    color: white;
+    font-size: 28px;
+    text-underline-offset: 6px;
+    font-weight: 500;
+}
+
+.main-content p{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 8px 0 0 0;
+}
+
+.buttons-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 15px;
+}
+
+.blue-button, .white-button{
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.blue-button{
+    background-color: rgb(62, 106, 224);
+    color: rgb(255, 255, 255);
+}
+
+.blue-button:hover{
+    background-color: #3e6ae9;
+    color: rgb(255, 255, 255);
+}
+
+.white-button{
+    background-color: rgb(254, 254, 254);
+    color: rgb(81, 84, 88);
+}
+
+.white-button:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(95, 98, 102);
+}
+
+.blue-button, .white-button{
+    width: 265px;
+    height: 40px;
+    text-align: center;
+}
+
+.body-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
